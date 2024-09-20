@@ -101,10 +101,11 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
+	color: #fff; /* Conserver le texte blanc */
+	background-color: #70702b; /* Assombrir la couleur d'arrière-plan pour améliorer le contraste */
+	border-radius: 0;
 }
+
 .nav-pills .nav-link {
 	color: #000
 }
@@ -239,10 +240,12 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
-	background-color: #BEB45A;
-	padding: .5em 1em
-}
+    background-color: #A0A04A; /* Un ton plus foncé pour améliorer le contraste */
+    color: #FFFFFF; 
+    padding: .5em 1em;
+} 
 
 @media all and (max-width: 1180px) {
 	.picture {
