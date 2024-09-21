@@ -101,8 +101,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff; /* Conserver le texte blanc */
-	background-color: #70702b; /* Assombrir la couleur d'arrière-plan pour améliorer le contraste */
+	color: #ffffff; 
+	background-color: #70702b; 
 	border-radius: 0;
 }
 
@@ -246,6 +246,8 @@ input[type="submit"] {
     color: #FFFFFF; 
     padding: .5em 1em;
 } 
+
+
 
 @media all and (max-width: 1180px) {
 	.picture {
